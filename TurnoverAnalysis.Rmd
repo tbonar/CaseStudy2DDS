@@ -1,0 +1,10 @@
+---
+title: "Turnover Analysis"
+author: "Taylor Bonar"
+date: "4/4/2021"
+output: html_document
+---
+
+```{r}
+employeesDf = read.csv("./data/CaseStudy2-data.csv")
+```
