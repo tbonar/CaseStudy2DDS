@@ -5,6 +5,11 @@ date: "4/4/2021"
 output: html_document
 ---
 
+## Initial Data Inputs and Libraries
 ```{r}
-employeesDf = read.csv("./data/CaseStudy2-data.csv")
+library(readxl)
+
+trainingSet = read.csv("./data/CaseStudy2-data.csv")
+testAttritionSet = read.csv("./data/CaseStudy2CompSet No Attrition.csv")
+testSalarySet = read_xlsx("./data/CaseStudy2CompSet No Salary.xlsx",sheet=1)
 ```
